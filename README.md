@@ -62,3 +62,36 @@ Used data augmentation to improve model generalization.
 
 🌟 If you find this project useful, give it a ⭐ on GitHub!
 Let's fight wildfires with AI! 🔥🌿
+📅 Week 2 Summary
+During Week 2, significant foundational progress was made in setting up and preparing the wildfire detection project. The following key tasks were completed:
+
+🔸 Dataset Integration & Preprocessing
+Successfully integrated the Wildfire Dataset using kagglehub.
+
+Verified the presence of training, validation, and test directories.
+
+Ensured that the dataset was properly structured for model training.
+
+🔸 Environment Setup
+Imported necessary libraries including:
+
+TensorFlow/Keras for deep learning
+
+OpenCV, NumPy, Matplotlib for data handling and visualization
+
+Enabled GPU support for faster training using TensorFlow configuration.
+
+🔸 Data Pipeline Creation
+Initialized ImageDataGenerator for real-time image augmentation:
+
+Applied rescaling, rotation, zoom, and horizontal flipping.
+
+Created data generators for:
+
+Training set
+
+Validation set
+
+Test set
+
+These steps established the groundwork for model development and training, ensuring clean, organized input for the deep learning pipeline.
